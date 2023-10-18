@@ -1,0 +1,16 @@
+.spacing-header {
+    text-align: center;
+}
+
+.input-error {
+    border: red 1px solid;
+}
+
+.label-error {
+    color: red;
+    display: inline;
+}
+
+.label-error-hide {
+    display: none !important;
+}

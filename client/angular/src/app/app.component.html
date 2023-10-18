@@ -1,0 +1,31 @@
+<h3 class="spacing-header">
+  Base64 String Converter
+</h3>
+<div class="row mt-5">
+  <div class="col-4 offset-4">
+    <div class="input-group">
+      <input [ngClass]="{'input-error': inputError}" class="form-control" type="text" value=""
+        [(ngModel)]="userInput" />
+    </div>
+  </div>
+</div>
+<div class="row">
+  <div class="col-4 offset-4">
+    <span [ngClass]="{'label-error-hide': !inputError}" class="label-error">Please provide valid
+      input!</span>
+  </div>
+</div>
+<div class="row m-4">
+  <div class="col-4 offset-4">
+    <textarea class="form-control form-control-lg form-control-solid" style="width: 100%" cols="50"
+      rows="10">{{ serverMessage }}</textarea>
+    <div class="row m-3">
+      <div class="col-4">
+        <button type=button class="btn btn-success" (click)="convert()">Convert</button>
+      </div>
+      <div class="col-4 offset-4">
+        <button type="button" class="btn btn-danger" (click)="cancel()">Cancel</button>
+      </div>
+    </div>
+  </div>
+</div>
