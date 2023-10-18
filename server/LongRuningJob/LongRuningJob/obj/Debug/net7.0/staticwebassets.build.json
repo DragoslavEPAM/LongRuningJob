@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "yVFUPdC2V9TS21g0o4qnY+pfGNTl3mPLZsmnWxY5Ey4=",
+  "Source": "LongRuningJob",
+  "BasePath": "_content/LongRuningJob",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
